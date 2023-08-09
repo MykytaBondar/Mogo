@@ -10,10 +10,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700&family=Raleway:wght@700&family=Roboto:wght@300;400;500;700;900&family=Ubuntu:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header container">
+        <div class="header-container">
        <h1 class="header-title">MoGo</h1>
        <nav class="header-nav">
         <ul class="header-list">
@@ -34,65 +36,66 @@
             </li>
         </ul>
        </nav>
+       </div>
     </header>
-    <main>
+    <main class="main container">
         <section>
-            <span class="text"> <i>We work with</i></span>
+            <div class="span-wrap"><span class="text"> <i>We work with</i></span></div>
             <h2 class="title">AMAZING SERVICES</h2>
             <div class="line"></div>
             <ul>
-                <li>
+                <li class="hero-item">
                     <div>
                      <img src="images/alarm 1.png" alt="">
                     </div>
                     <div>
                         <h3 class="photography">photography</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, repellendus inventore? Reiciendis magnam tenetur totam dolor delectus dolorum quia sapiente blanditiis molestias corrupti, aut voluptas, dolorem iste eius. Dolorem, quibusdam!</p>
+                        <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, repellendus inventore? Reiciendis magnam tenetur totam dolor delectus dolorum quia sapiente blanditiis molestias corrupti, aut voluptas, dolorem iste eius. Dolorem, quibusdam!</p>
                     </div>
                 </li>
-                <li>
+                <li class="hero-item">
                     <div>
                         <img src="images/bar-graph 1.png" alt="">
                     </div>
                     <div>
                         <h3 class="photography">photography</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aut laudantium voluptatum placeat quis mollitia ipsum, rerum corrupti aliquam ad minima laborum autem eaque est quas, laboriosam necessitatibus exercitationem obcaecati.</p>
+                        <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aut laudantium voluptatum placeat quis mollitia ipsum, rerum corrupti aliquam ad minima laborum autem eaque est quas, laboriosam necessitatibus exercitationem obcaecati.</p>
                     </div>
                 </li>
-                <li>
+                <li class="hero-item">
                     <div>
                         <img src="images/digital-marketing 1.png" alt="">
                     </div>
                     <div>
                         <h3 class="photography">photography</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, reprehenderit animi! Repellendus omnis id quia aliquid quisquam laudantium consequatur enim suscipit ut. Nihil dolore voluptates nulla, quas dolorem perferendis accusamus.</p>
+                        <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, reprehenderit animi! Repellendus omnis id quia aliquid quisquam laudantium consequatur enim suscipit ut. Nihil dolore voluptates nulla, quas dolorem perferendis accusamus.</p>
                     </div>
                 </li>
-                <li>
+                <li class="hero-item">
                     <div>
                         <img src="images/display 1.png" alt="">
                     </div>
                     <div>
                         <h3 class="photography">photography</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere dolor mollitia ullam ratione cumque, itaque explicabo eum rerum reiciendis blanditiis autem dignissimos? Quasi et quae dolores rem non ducimus laboriosam.</p>
+                        <p class="info-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere dolor mollitia ullam ratione cumque, itaque explicabo eum rerum reiciendis blanditiis autem dignissimos? Quasi et quae dolores rem non ducimus laboriosam.</p>
                     </div>
                 </li>
-                <li>
+                <li class="hero-item">
                     <div>
                         <img src="images/home 1.png" alt="">
                     </div>
                     <div>
                         <h3 class="photography">photography</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, et praesentium? Tempore dolore ab eligendi natus. Delectus, earum doloribus! Iure quod cupiditate quas accusantium, laudantium neque distinctio quasi at dolore?</p>
+                        <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, et praesentium? Tempore dolore ab eligendi natus. Delectus, earum doloribus! Iure quod cupiditate quas accusantium, laudantium neque distinctio quasi at dolore?</p>
                     </div>
                 </li>
-                <li>
+                <li class="hero-item">
                     <div>
                         <img src="images/paper 1.png" alt="">
                     </div>
                     <div>
                         <h3 class="photography">photography</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eligendi amet a corrupti deserunt pariatur. Consequuntur nobis, maiores eveniet assumenda modi provident, impedit cumque eligendi obcaecati delectus voluptate! Ad, suscipit?</p>
+                        <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eligendi amet a corrupti deserunt pariatur. Consequuntur nobis, maiores eveniet assumenda modi provident, impedit cumque eligendi obcaecati delectus voluptate! Ad, suscipit?</p>
                     </div>
                 </li>
             </ul>
@@ -102,8 +105,8 @@
             <h2 class="title">MEET OUR TEAM</h2>
             <div class="line"></div>
              <p class="amazing-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi autem suscipit voluptate ipsa quam doloribus optio ad culpa recusandae, repellat dolorem laborum sit voluptatum rerum hic officia odio voluptates est?</p>
-             <ul>
-                <li>
+             <ul class="workers-list">
+                <li class="blank-item">
                 <div>
                   <img src="images/first-man 1.png" alt="">
                 </div>
@@ -133,8 +136,8 @@
              </ul>
             </section>
     </main>
-    <footer>
-      <p>© 2016 MoGo free PSD template by <a class="footer-link" href="#">Laaqiq</a></p>
+    <footer class=" footer container">
+      <p class="footer-text">© 2016 MoGo free PSD template by <a class="footer-link" href="#">Laaqiq</a></p>
       <form>
         <label>
             <input type="text" placeholder="Your Email..." class="email">
